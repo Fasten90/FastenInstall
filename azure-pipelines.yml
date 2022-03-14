@@ -8,10 +8,10 @@ stages:
 - stage: Test
   jobs:
 
-  - job: Ansible lint
+  - job: AnsibleLint
     pool:
       vmImage: 'ubuntu-latest'
-    displayName: 'AnsibleLint'
+    displayName: 'Ansible Lint'
     steps:
     - script: |
         ./ansible_install.sh
