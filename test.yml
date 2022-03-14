@@ -5,7 +5,7 @@
 # https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html
 
   tasks:
-  - name: Ensure apache is at the latest version
+  - name: Notepadplusplus install
     win_chocolatey:
       name: notepadplusplus
       state: latest
