@@ -4,4 +4,6 @@ COPY . .
 
 RUN ./ansible_install.sh
 
-RUN bash
+COPY ./hosts /etc/ansible/hosts
+
+RUN [/bin/bash]

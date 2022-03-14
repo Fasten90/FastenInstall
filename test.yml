@@ -1,6 +1,6 @@
 ---
 - name: Test install name
-  hosts: fasten_localhost
+  hosts: fasten_localhosts
   remote_user: root
 # https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html
 
