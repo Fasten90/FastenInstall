@@ -1,0 +1,21 @@
+---
+- name: Test install name
+  hosts: fasten_localhost
+  remote_user: root
+# https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html
+
+  tasks:
+  - name: Ensure apache is at the latest version
+    win_chocolatey:
+      name: notepadplusplus
+      state: latest
+
+# https://docs.ansible.com/ansible/latest/collections/chocolatey/chocolatey/win_chocolatey_module.html
+# Or
+#  win_chocolatey:
+#    name: notepadplusplus
+#    version: '6.6'
+
+#procexp
+#windirstat
+
