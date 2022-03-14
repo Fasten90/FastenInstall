@@ -14,5 +14,7 @@ stages:
     displayName: 'Ansible Lint'
     steps:
     - script: |
+        echo Ansible install
         ./ansible_install.sh
+        echo Ansible lint
         ./ansible_lint.sh
