@@ -1,10 +1,1 @@
-git
-GitExtensions
-notepadplusplus
-vscode
-notion
-evernote
-totalcmd
-foxitreader
-zip
-7zip
+choco install process-explorer -y
