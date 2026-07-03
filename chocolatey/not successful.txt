@@ -1,0 +1,9 @@
+xnview  --> need another image viewer
+
+kdiff --> No problem, kdiff3 is ok
+
+not installed yet:
+chat programs
+
+Maybe not available:
+STM32 Cube IDE
