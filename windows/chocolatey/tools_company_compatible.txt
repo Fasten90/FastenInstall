@@ -19,3 +19,5 @@ shotcut
 kdiff3
 python
 process-explorer
+docker-cli
+docker-desktop
