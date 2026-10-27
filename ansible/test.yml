@@ -5,11 +5,11 @@
 # https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html
 
   tasks:
-  - name: Notepadplusplus install
-    chocolatey.chocolatey.win_chocolatey:
-      name: notepadplusplus
-      # Removed state: latest to comply with best practices
-      state: present 
+    - name: Notepadplusplus install
+      chocolatey.chocolatey.win_chocolatey:
+        name: notepadplusplus
+        # Removed state: latest to comply with best practices
+        state: present
 
 # https://docs.ansible.com/ansible/latest/collections/chocolatey/chocolatey/win_chocolatey_module.html
 # Or, alternatively specify a version explicitly:
