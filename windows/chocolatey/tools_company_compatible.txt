@@ -21,3 +21,4 @@ python
 process-explorer
 docker-cli
 docker-desktop
+shellcheck

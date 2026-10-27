@@ -1,3 +1,4 @@
 signal
 viber
 discord
+telegram
