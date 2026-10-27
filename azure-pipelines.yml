@@ -15,6 +15,7 @@ stages:
     steps:
     - script: |
         cd ansible
+        chmod u+x *.sh
         echo Ansible install
         ./ansible_install.sh
         echo Ansible lint
