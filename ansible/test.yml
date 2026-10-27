@@ -6,16 +6,17 @@
 
   tasks:
   - name: Notepadplusplus install
-    win_chocolatey:
+    chocolatey.chocolatey.win_chocolatey:
       name: notepadplusplus
-      state: latest
+      # Removed state: latest to comply with best practices
+      state: present 
 
 # https://docs.ansible.com/ansible/latest/collections/chocolatey/chocolatey/win_chocolatey_module.html
-# Or
-#  win_chocolatey:
-#    name: notepadplusplus
-#    version: '6.6'
+# Or, alternatively specify a version explicitly:
+#  - name: Notepadplusplus install (versioned)
+#    chocolatey.chocolatey.win_chocolatey:
+#      name: notepadplusplus
+#      version: '6.6'
 
-#procexp
-#windirstat
-
+# procexp module example
+# windirstat module example
